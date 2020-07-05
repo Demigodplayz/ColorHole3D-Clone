@@ -1,3 +1,10 @@
+/*
+* Developed by Taygun SAVAŞ.
+* www.taygunsavas.com
+*
+* Contact,
+* info@taygunsavas.com
+*/
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
