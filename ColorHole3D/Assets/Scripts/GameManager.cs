@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
             player.DOLocalMoveX(0f, .5f).OnComplete(() =>
             {
                 Camera.main.transform.DOMoveZ(nextPos.localPosition.z - 1.9f, 5f);
-                player.DOLocalMoveZ(nextPos.localPosition.z, 5f).OnKill(() => OnTransition(new object[] { false }));
+                player.DOLocalMoveZ(nextPos.localPosition.z, 5.35f).OnKill(() => OnTransition(new object[] { false }));
             });
 
         }
