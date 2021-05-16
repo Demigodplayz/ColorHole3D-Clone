@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-       unityVersion:
+        unityVersion:
           - 2020.1.14f1
         targetPlatform:
           - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
